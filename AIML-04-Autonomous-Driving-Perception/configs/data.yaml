@@ -1,0 +1,18 @@
+# YOLO-format BDD100K detection dataset.
+# Update `path` to wherever the converted dataset lives (e.g. a Drive or Colab path).
+path: data/bdd100k_yolo
+train: images/train
+val: images/val
+
+nc: 10
+names:
+  0: pedestrian
+  1: rider
+  2: car
+  3: truck
+  4: bus
+  5: train
+  6: motorcycle
+  7: bicycle
+  8: traffic light
+  9: traffic sign
